@@ -1,4 +1,4 @@
-*This project has been created as part of the 42 curriculum by kjolly*
+*This project has been created as part of the 42 curriculum by kjolly and tzara*
 
 # Minishell - As beautiful as a shell
 
