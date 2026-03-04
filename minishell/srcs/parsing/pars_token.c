@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   pars_token.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: tzara <tzara@student.42.fr>                +#+  +:+       +#+        */
+/*   By: kjolly <kjolly@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/13 13:38:05 by kjolly            #+#    #+#             */
-/*   Updated: 2025/05/23 21:59:20 by tzara            ###   ########.fr       */
+/*   Updated: 2026/03/04 12:32:12 by kjolly           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,6 +52,7 @@ void	t_exp(char *cmd, int *i, t_data *data, char **tmp)
 
 void	win_line(t_data *data, char **tmp, int *h_d)
 {
+	(void)h_d;
 	token_next(data, *tmp);
 	free(*tmp);
 	*tmp = NULL;
